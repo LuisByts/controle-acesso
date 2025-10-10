@@ -11,6 +11,7 @@ public class Presenca {
 
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
+  @Column(name = "presenca_id")
   private Long id;
 
   @ManyToOne(fetch = FetchType.LAZY)

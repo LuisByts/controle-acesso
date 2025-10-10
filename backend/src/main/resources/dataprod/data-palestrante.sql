@@ -1,0 +1,28 @@
+INSERT INTO tb_palestrante 
+(palestrante_id, nome, email, telefone, cpf, area_atuacao, acesso)
+VALUES
+(UUID(), 'Alice Rodrigues', 'alice.rodrigues@example.com', '(11) 98888-1111', '123.456.789-00', 'Inteligància Artificial', 'ADMINISTRADOR'),
+(UUID(), 'Bruno Pereira', 'bruno.pereira@example.com', '(21) 97777-2222', '987.654.321-00', 'Ciberseguranáa', 'ORGANIZADOR'),
+(UUID(), 'Camila Oliveira', 'camila.oliveira@example.com', '(31) 96666-3333', '111.222.333-44', 'Engenharia de Software', 'PARTICIPANTE'),
+(UUID(), 'Diego Silva', 'diego.silva@example.com', '(41) 95555-4444', '222.333.444-55', 'Blockchain', 'ORGANIZADOR'),
+(UUID(), 'Eduarda Lima', 'eduarda.lima@example.com', '(51) 94444-5555', '333.444.555-66', 'Computaá∆o em Nuvem', 'ADMINISTRADOR'),
+(UUID(), 'Felipe Souza', 'felipe.souza@example.com', '(61) 93333-6666', '444.555.666-77', 'DevOps', 'PARTICIPANTE'),
+(UUID(), 'Gabriela Nunes', 'gabriela.nunes@example.com', '(71) 92222-7777', '555.666.777-88', 'Gest∆o de Projetos µgeis', 'ORGANIZADOR'),
+(UUID(), 'Henrique Rocha', 'henrique.rocha@example.com', '(81) 91111-8888', '666.777.888-99', 'Internet das Coisas (IoT)', 'PARTICIPANTE'),
+(UUID(), 'Isabela Santos', 'isabela.santos@example.com', '(91) 90000-9999', '777.888.999-00', 'Data Science', 'ORGANIZADOR'),
+(UUID(), 'Jo∆o Carvalho', 'joao.carvalho@example.com', '(85) 98888-0000', '888.999.000-11', 'Redes e Infraestrutura', 'ADMINISTRADOR'),
+(UUID(), 'Karen Almeida', 'karen.almeida@example.com', '(82) 97777-1111', '999.000.111-22', 'Educaá∆o Digital', 'PARTICIPANTE'),
+(UUID(), 'Leonardo Torres', 'leonardo.torres@example.com', '(92) 96666-2222', '000.111.222-33', 'Computaá∆o QuÉntica', 'ADMINISTRADOR'),
+(UUID(), 'Mariana Teixeira', 'mariana.teixeira@example.com', '(84) 95555-3333', '111.222.333-44', 'Gest∆o de TI', 'PARTICIPANTE'),
+(UUID(), 'Nicolas Castro', 'nicolas.castro@example.com', '(83) 94444-4444', '222.333.444-55', 'Machine Learning', 'ORGANIZADOR'),
+(UUID(), 'Ol°via Mendes', 'olivia.mendes@example.com', '(86) 93333-5555', '333.444.555-66', 'UX/UI Design', 'PARTICIPANTE'),
+(UUID(), 'Paulo Silva', 'paulo.silva@example.com', '(87) 92222-6666', '444.555.666-77', 'Big Data', 'ADMINISTRADOR'),
+(UUID(), 'Queila Ara£jo', 'queila.araujo@example.com', '(88) 91111-7777', '555.666.777-88', 'Realidade Aumentada', 'PARTICIPANTE'),
+(UUID(), 'Rafael Duarte', 'rafael.duarte@example.com', '(89) 90000-8888', '666.777.888-99', 'Game Design', 'ORGANIZADOR'),
+(UUID(), 'Sofia Lima', 'sofia.lima@example.com', '(11) 98888-9999', '777.888.999-00', 'An†lise de Sistemas', 'PARTICIPANTE'),
+(UUID(), 'Thiago Gomes', 'thiago.gomes@example.com', '(21) 97777-0000', '888.999.000-11', 'Automaá∆o Industrial', 'ADMINISTRADOR'),
+(UUID(), 'Ursula Faria', 'ursula.faria@example.com', '(31) 96666-1111', '999.000.111-22', 'Rob¢tica', 'PARTICIPANTE'),
+(UUID(), 'Vitor Monteiro', 'vitor.monteiro@example.com', '(41) 95555-2222', '000.111.222-33', 'Engenharia de Dados', 'ORGANIZADOR'),
+(UUID(), 'William Souza', 'william.souza@example.com', '(51) 94444-3333', '111.222.333-44', 'Cultura DevSecOps', 'PARTICIPANTE'),
+(UUID(), 'Xavier Andrade', 'xavier.andrade@example.com', '(61) 93333-4444', '222.333.444-55', 'Arquitetura de Software', 'ADMINISTRADOR'),
+(UUID(), 'Yasmin Torres', 'yasmin.torres@example.com', '(71) 92222-5555', '333.444.555-66', 'Empreendedorismo em TI', 'PARTICIPANTE');

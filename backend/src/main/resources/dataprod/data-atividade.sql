@@ -1,0 +1,28 @@
+INSERT IGNORE INTO tb_atividade (organizador_id, palestrante_id, nome, descricao, data, local)
+VALUES
+(UUID(), UUID(), 'Introdução à Inteligência Artificial', 'Palestra sobre os fundamentos da IA e aplicações modernas.', '2025-11-10 09:00:00', 'Auditório Principal'),
+(UUID(), UUID(), 'Workshop de Cibersegurança', 'Técnicas de proteção de dados e defesa contra ataques digitais.', '2025-11-10 11:00:00', 'Sala 2 - Bloco B'),
+(UUID(), UUID(), 'Painel: O Futuro da Computação em Nuvem', 'Discussão sobre tendências e inovações no uso da nuvem.', '2025-11-10 14:00:00', 'Auditório 2'),
+(UUID(), UUID(), 'Oficina de UX Design', 'Atividade prática sobre design centrado no usuário.', '2025-11-10 16:00:00', 'Laboratório de Design'),
+(UUID(), UUID(), 'Mesa Redonda: Ética em IA', 'Debate com especialistas sobre dilemas éticos em Inteligência Artificial.', '2025-11-11 09:00:00', 'Auditório Principal'),
+(UUID(), UUID(), 'Palestra: Computação Quântica', 'Introdução aos princípios e desafios da computação quântica.', '2025-11-11 11:00:00', 'Sala 3 - Bloco A'),
+(UUID(), UUID(), 'Workshop de DevOps', 'Integração contínua, entrega automatizada e práticas ágeis.', '2025-11-11 14:00:00', 'Laboratório 1'),
+(UUID(), UUID(), 'Oficina: Análise de Dados com Python', 'Uso de Python e bibliotecas como Pandas e NumPy para análise de dados.', '2025-11-11 16:00:00', 'Sala de Informática'),
+(UUID(), UUID(), 'Seminário: Tendências em Cloud Computing', 'Novas tecnologias e estratégias em serviços em nuvem.', '2025-11-12 09:00:00', 'Auditório 3'),
+(UUID(), UUID(), 'Workshop: Segurança em Redes', 'Boas práticas e simulações de ataques cibernéticos.', '2025-11-12 11:00:00', 'Laboratório de Redes'),
+(UUID(), UUID(), 'Palestra: Machine Learning para Negócios', 'Como aplicar aprendizado de máquina em soluções corporativas.', '2025-11-12 14:00:00', 'Sala 1 - Bloco C'),
+(UUID(), UUID(), 'Mesa Redonda: Mulheres na Tecnologia', 'Histórias inspiradoras e desafios de profissionais da área.', '2025-11-12 16:00:00', 'Auditório Principal'),
+(UUID(), UUID(), 'Workshop: Engenharia de Dados', 'Introdução ao design e manutenção de pipelines de dados.', '2025-11-13 09:00:00', 'Laboratório de Dados'),
+(UUID(), UUID(), 'Palestra: IoT e Cidades Inteligentes', 'Como a Internet das Coisas está transformando o espaço urbano.', '2025-11-13 11:00:00', 'Auditório 2'),
+(UUID(), UUID(), 'Painel: Carreiras em TI', 'Especialistas discutem trajetórias e habilidades em alta.', '2025-11-13 14:00:00', 'Sala 4 - Bloco D'),
+(UUID(), UUID(), 'Workshop: Kubernetes para Iniciantes', 'Configuração e orquestração de containers com Kubernetes.', '2025-11-13 16:00:00', 'Laboratório Cloud'),
+(UUID(), UUID(), 'Oficina de Game Design', 'Criação e prototipagem de jogos digitais.', '2025-11-14 09:00:00', 'Laboratório de Jogos'),
+(UUID(), UUID(), 'Palestra: Ética e Privacidade Digital', 'Discussão sobre privacidade de dados e regulamentações.', '2025-11-14 11:00:00', 'Auditório Principal'),
+(UUID(), UUID(), 'Workshop: Engenharia de Software Moderna', 'Arquiteturas baseadas em microsserviços e práticas ágeis.', '2025-11-14 14:00:00', 'Sala Tech'),
+(UUID(), UUID(), 'Painel: Educação e Tecnologia', 'O impacto das novas tecnologias no ensino e aprendizado.', '2025-11-14 16:00:00', 'Auditório 1'),
+(UUID(), UUID(), 'Seminário: Robótica Avançada', 'Aplicações industriais e educacionais da robótica moderna.', '2025-11-15 09:00:00', 'Laboratório de Robótica'),
+(UUID(), UUID(), 'Workshop: Automação com Python', 'Automatização de tarefas e processos usando scripts em Python.', '2025-11-15 11:00:00', 'Sala 2 - Bloco A'),
+(UUID(), UUID(), 'Oficina: Realidade Aumentada e Virtual', 'Introdução prática à criação de experiências imersivas.', '2025-11-15 14:00:00', 'Laboratório XR'),
+(UUID(), UUID(), 'Palestra: Empreendedorismo Digital', 'Estratégias para startups e inovação tecnológica.', '2025-11-15 16:00:00', 'Auditório Central'),
+(UUID(), UUID(), 'Encerramento: Futuro da Tecnologia', 'Painel final com todos os palestrantes e organizadores.', '2025-11-15 18:00:00', 'Auditório Principal');
+

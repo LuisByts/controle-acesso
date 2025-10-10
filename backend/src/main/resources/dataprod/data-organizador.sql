@@ -1,0 +1,28 @@
+INSERT IGNORE INTO tb_organizador 
+(organizador_id, nome, email, telefone, cpf, cargo, departamento, acesso) 
+VALUES
+(UUID(), 'André Almeida', 'andre.almeida@example.com', '(11) 98888-1111', '123.456.789-00', 'Coordenador de Eventos', 'Marketing', 'ADMINISTRADOR'),
+(UUID(), 'Beatriz Santos', 'beatriz.santos@example.com', '(21) 97777-2222', '987.654.321-00', 'Gerente de Projetos', 'Planejamento', 'ORGANIZADOR'),
+(UUID(), 'Carlos Henrique', 'carlos.henrique@example.com', '(31) 96666-3333', '111.222.333-44', 'Assistente de Produção', 'Operações', 'PARTICIPANTE'),
+(UUID(), 'Daniela Rocha', 'daniela.rocha@example.com', '(41) 95555-4444', '222.333.444-55', 'Analista de Comunicação', 'Comunicação', 'ORGANIZADOR'),
+(UUID(), 'Eduardo Castro', 'eduardo.castro@example.com', '(51) 94444-5555', '333.444.555-66', 'Supervisor de Logística', 'Logística', 'ADMINISTRADOR'),
+(UUID(), 'Fernanda Oliveira', 'fernanda.oliveira@example.com', '(61) 93333-6666', '444.555.666-77', 'Produtora Executiva', 'Produção', 'ORGANIZADOR'),
+(UUID(), 'Gustavo Pereira', 'gustavo.pereira@example.com', '(71) 92222-7777', '555.666.777-88', 'Designer Gráfico', 'Criação', 'PARTICIPANTE'),
+(UUID(), 'Helena Souza', 'helena.souza@example.com', '(81) 91111-8888', '666.777.888-99', 'Coordenadora de Conteúdo', 'Comunicação', 'ORGANIZADOR'),
+(UUID(), 'Igor Nascimento', 'igor.nascimento@example.com', '(91) 90000-9999', '777.888.999-00', 'Gestor de Marketing', 'Marketing', 'ADMINISTRADOR'),
+(UUID(), 'Juliana Lima', 'juliana.lima@example.com', '(85) 98888-0000', '888.999.000-11', 'Assessora de Imprensa', 'Comunicação', 'PARTICIPANTE'),
+(UUID(), 'Kleber Silva', 'kleber.silva@example.com', '(82) 97777-1111', '999.000.111-22', 'Técnico de Som', 'Operações', 'PARTICIPANTE'),
+(UUID(), 'Larissa Martins', 'larissa.martins@example.com', '(92) 96666-2222', '000.111.222-33', 'Assistente de Marketing', 'Marketing', 'ORGANIZADOR'),
+(UUID(), 'Matheus Ramos', 'matheus.ramos@example.com', '(84) 95555-3333', '111.222.333-44', 'Produtor Técnico', 'Produção', 'PARTICIPANTE'),
+(UUID(), 'Natália Fernandes', 'natalia.fernandes@example.com', '(83) 94444-4444', '222.333.444-55', 'Gerente de Eventos', 'Planejamento', 'ADMINISTRADOR'),
+(UUID(), 'Otávio Costa', 'otavio.costa@example.com', '(86) 93333-5555', '333.444.555-66', 'Consultor de Parcerias', 'Comercial', 'ORGANIZADOR'),
+(UUID(), 'Patrícia Nogueira', 'patricia.nogueira@example.com', '(87) 92222-6666', '444.555.666-77', 'Assistente Administrativo', 'Financeiro', 'PARTICIPANTE'),
+(UUID(), 'Rafael Azevedo', 'rafael.azevedo@example.com', '(88) 91111-7777', '555.666.777-88', 'Supervisor Técnico', 'Operações', 'ORGANIZADOR'),
+(UUID(), 'Sabrina Duarte', 'sabrina.duarte@example.com', '(89) 90000-8888', '666.777.888-99', 'Coordenadora de Patrocínio', 'Comercial', 'ADMINISTRADOR'),
+(UUID(), 'Thiago Gomes', 'thiago.gomes@example.com', '(11) 98888-9999', '777.888.999-00', 'Analista Financeiro', 'Financeiro', 'PARTICIPANTE'),
+(UUID(), 'Ursula Teixeira', 'ursula.teixeira@example.com', '(21) 97777-0000', '888.999.000-11', 'Gerente de Operações', 'Operações', 'ORGANIZADOR'),
+(UUID(), 'Vinícius Monteiro', 'vinicius.monteiro@example.com', '(31) 96666-1111', '999.000.111-22', 'Coordenador de Produção', 'Produção', 'ADMINISTRADOR'),
+(UUID(), 'Wellington Farias', 'wellington.farias@example.com', '(41) 95555-2222', '000.111.222-33', 'Analista de Mídias', 'Comunicação', 'PARTICIPANTE'),
+(UUID(), 'Ximena Prado', 'ximena.prado@example.com', '(51) 94444-3333', '111.222.333-44', 'Supervisora de Vendas', 'Comercial', 'ORGANIZADOR'),
+(UUID(), 'Yago Torres', 'yago.torres@example.com', '(61) 93333-4444', '222.333.444-55', 'Coordenador Financeiro', 'Financeiro', 'ADMINISTRADOR'),
+(UUID(), 'Zélia Barbosa', 'zelia.barbosa@example.com', '(71) 92222-5555', '333.444.555-66', 'Assistente de Produção', 'Produção', 'PARTICIPANTE');
