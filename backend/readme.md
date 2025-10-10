@@ -1,0 +1,3 @@
+mvn spring-boot:run -Dspring-boot.run.profiles=prod
+
+mvn spring-boot:run
